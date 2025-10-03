@@ -9,6 +9,7 @@ if(chute == numeroSecreto){
 }else{
     alert('Você errou o :(');
 }*/
+
 /*alert ("Bem vindo ao anosso site!");
 let nome = "Lua";
 let idade = 25;
@@ -27,3 +28,36 @@ if (novaIdade >= 18){
 else{
     alert("Você não possuí idade mínima para tirar a CNH")
 }*/
+
+let diaDaSemana = prompt("Digite um dia da semana");
+
+if(diaDaSemana == "Sábado"){
+    alert("Bom fim de semana!")
+}else if (diaDaSemana == "Domingo"){
+    alert("Bom fim de semana!")
+}else{
+    alert("Boa Semana!")
+}
+
+let numero = prompt("Digite um número entre -10 e 10");
+
+if(numero < 0){
+    alert("Você digitou um número negativo.")
+}else if(numero > 0){
+    alert("Você digitou um número positivo.")
+}else{
+    alert("Você digitou um número neutro.")
+}
+let pontuacao = prompt("Digite uma pontuação entre 1 e 1000");
+
+if (pontuacao >= 100){
+    alert("Parabéns, você venceu!")
+}else{
+    alert("Tente novamente para ganhar.")
+}
+
+let saldo = 1000
+alert(`Seu saldo é: ${saldo}`);
+
+let nomeUsuario = prompt("Digite seu nome");
+alert(`${nomeUsuario}, seja Bem-vindo!`);
