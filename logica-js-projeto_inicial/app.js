@@ -1,4 +1,4 @@
-alert('Bem vindo ao jogo do número secreto');
+/*alert('Bem vindo ao jogo do número secreto');
 let numeroSecreto = 10;
 console.log(numeroSecreto);
 let chute = prompt ('Digite umm número entre 1 e 10');
@@ -8,7 +8,7 @@ if(chute == numeroSecreto){
     console.log(`Você acertou o número secreto! ${numeroSecreto}`);
 }else{
     alert('Você errou o :(');
-}
+}*/
 /*alert ("Bem vindo ao anosso site!");
 let nome = "Lua";
 let idade = 25;
