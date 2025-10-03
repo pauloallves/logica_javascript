@@ -1,11 +1,15 @@
-/*alert('Bem vindo ao jogo do número secreto');
-let numeroSecreto = 29;
-let chute = prompt ('Digite umm número entre 1 e 30');
+alert('Bem vindo ao jogo do número secreto');
+let numeroSecreto = 10;
+console.log(numeroSecreto);
+let chute = prompt ('Digite umm número entre 1 e 10');
 
+//se chute for igual ao número secreto
 if(chute == numeroSecreto){
-    console.log('Você acertou o número secreto!');
-}*/
-alert ("Bem vindo ao anosso site!");
+    console.log(`Você acertou o número secreto! ${numeroSecreto}`);
+}else{
+    alert('Você errou o :(');
+}
+/*alert ("Bem vindo ao anosso site!");
 let nome = "Lua";
 let idade = 25;
 let numeroDeVendas = 50;
@@ -22,4 +26,4 @@ if (novaIdade >= 18){
 }
 else{
     alert("Você não possuí idade mínima para tirar a CNH")
-}
+}*/
