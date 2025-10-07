@@ -1,4 +1,4 @@
-alert('Boas vindas ao jogo do número secreto');
+/*alert('Boas vindas ao jogo do número secreto');
 let numeroSecreto = 5;
 console.log(numeroSecreto);
 let chute;
@@ -18,5 +18,27 @@ while(chute != numeroSecreto){
             tentativas++;
         }
     }
-}
+}*/
+//let contador = 0;
 
+//while (contador < 10){
+    //console.log(contador);
+    //contador++;
+//}
+//let contador = 10
+//while (contador > 0){
+    //console.log(contador);
+    //contador--;
+//}
+//let numero = prompt('Digite um número aleatório.');
+//contador = 0
+//while (contador >= numero){
+    //contador--;
+    //console.log(contador);  
+//}
+let numero = prompt( 'Digite um número.');
+contador = 0;
+while(contador <= numero){
+    console.log(contador);
+    contador++;
+}
