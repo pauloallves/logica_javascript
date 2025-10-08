@@ -1,4 +1,4 @@
-alert('Boas vindas ao jogo do número secreto');
+/*alert('Boas vindas ao jogo do número secreto');
 let numeroSecreto = parseInt(Math.random() * 10 + 1);
 console.log(numeroSecreto)
 let chute;
@@ -23,3 +23,14 @@ while (chute != numeroSecreto) {
 
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
 alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
+*/
+console.log('Boas-vindas');
+
+let nome = 'Paulo';
+console.log(`Olá, ${nome}`);
+
+alert(`Olá, ${nome}`);
+
+let resposta = prompt('Qual a linguagem de programação que você mais gosta?');
+console.log(resposta);
+
