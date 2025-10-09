@@ -23,8 +23,8 @@ while (chute != numeroSecreto) {
 
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
 alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
-*/
-/*console.log('Boas-vindas');
+
+console.log('Boas-vindas');
 
 let nome = 'Paulo';
 console.log(`Olá, ${nome}`);
